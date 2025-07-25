@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internships - Vault of Codes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #dcefff);
+      color: #333;
+      padding: 20px;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    .logo h1 {
+      color: #ff5c5c;
+      font-size: 26px;
+      margin-top: 8px;
+      letter-spacing: 2px;
+    }
+
+    .heading {
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    .heading p {
+      font-size: 16px;
+      color: #444;
+    }
+
+    .heading h2 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #222;
+    }
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 25px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: #0d3d56;
+    }
+
+    .card ul {
+      font-size: 14px;
+      padding-left: 20px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .card ul li {
+      margin-bottom: 6px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #0d6efd;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: 0.3s ease;
+      box-shadow: 0 0 10px rgba(13, 110, 253, 0.4);
+    }
+
+    .card a:hover {
+      background: #0956d0;
+      box-shadow: 0 0 16px rgba(13, 110, 253, 0.7);
+    }
+
+    @media (max-width: 500px) {
+      .heading h2 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://vaultofcodes.in/static/media/Logo.0629c219cc4d2c1e50a7.png" alt="Vault of Codes Logo">
+    <h1>VaultofCodes</h1>
+  </div>
+
+  <div class="heading">
+    <p><strong>Task1:</strong> Look at this internship page</p>
+    <h2>Internships</h2>
+  </div>
+
+  <div class="cards-container">
+    <div class="card">
+      <h3>Web Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>App Development Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Python Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com">View Details</a>
+    </div>
+
+    <div class="card">
+      <h3>Java Programming Internship Program</h3>
+      <ul>
+        <li>Duration: 1 month/2 months</li>
+        <li>Location: Virtual</li>
+        <li>Stipend: -</li>
+        <li>Start date: 05/11/2023</li>
+      </ul>
+      <a href="https://example.com">View Details</a>
+    </div>
+  </div>
+
+</body>
+</html>
